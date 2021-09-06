@@ -5,7 +5,7 @@ import headers from './headers';
 import { CSVLink } from 'react-csv';
 export default function App() {
   const csvReport = {
-    filename: 'Empoyees.csv',
+    filename: 'Employee.csv',
     headers: headers,
     data: data
   };
